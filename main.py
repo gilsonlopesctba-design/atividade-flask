@@ -32,8 +32,8 @@ with app.app_context():
 @app.route('/')
 def index():
     integrantes = [
-        'Nome Completo 1',  # <- coloque o nome real aqui
-        'Nome Completo 2'   # <- coloque o nome real aqui
+        'Pedro Alvares Cabral',
+        'Bill Gates'
     ]
     return jsonify({'integrantes': integrantes})
 
