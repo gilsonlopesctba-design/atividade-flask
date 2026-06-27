@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ vars.DOCKER_USERNAME }}/gilsonLopes:27-06-26
+          tags: ${{ vars.DOCKER_USERNAME }}/gilsonlopes:27-06-26
